@@ -1,0 +1,25 @@
+create table itens(
+
+    idItem integer not null auto_increment,
+    nomeItem varchar(50) not null,
+    imgItem varchar(30) not null,
+    valorItem decimal(10,2) not null,
+    descriItem text null,
+    localItem varchar(30) not null,
+    primary key(idItem)
+
+
+);
+
+create table secundarias(
+
+    idSecundaria integer not null auto_increment,
+    idItem integer,
+    secundariasItem text not null,
+    CONSTRAINT fk_imgItens FOREIGN KEY (idItem) REFERENCES itens (idItem),
+    primary key(idSecundaria)
+
+
+
+
+);

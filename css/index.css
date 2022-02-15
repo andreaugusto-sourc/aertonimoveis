@@ -1,0 +1,150 @@
+/* CABECALHO */
+header{
+    background-color: #2C5288;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    
+}
+header nav{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav a{
+    padding: 1rem;
+}
+header nav a:hover{
+    font-size: 2rem;
+    background-color: #222;
+
+}
+#texto-logo{
+    font-size: 2rem;
+}
+#logo-img{
+    object-fit: cover;
+    border-radius: 1rem;
+    width:8.8vw;
+
+}
+/* CONTEUDO */
+.bloco-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    background-color: #F9E4CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-img{
+    height: 60.7vh;
+    width: 36.7vw;
+
+}
+.caixa-img img{
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+
+}
+.item-texto{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius:1rem;
+    
+}
+#descriItem{
+    margin: 0;
+    min-height: 80px;
+    text-align: justify;
+}
+.item a{
+    font-size: 2.2rem;
+    max-width: 400px;
+    margin: 1rem 0rem;
+}
+.caixa-contato{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius:1rem;
+    justify-content: center;
+
+}
+.icon{
+    color: white;
+    cursor: pointer;
+    margin: 0rem 0.4rem;
+    font-size: 4rem;
+}
+#contatar{
+    text-decoration: underline;
+    cursor: pointer;
+    border-radius:1rem;
+    color: white;
+    font-size: 2.5rem;
+}
+#contatar:hover{
+    
+}
+/* FOOTER */
+footer{
+    margin-top: 3%;
+    border-top: 0.2rem solid gray;
+    background-color: #2C5288;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+footer div{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+footer nav{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer div nav a{
+    letter-spacing: 0.2rem;
+    color: whitesmoke;
+    font-size: 2rem;
+    margin: 0.5rem 0rem;
+
+}
+footer div nav a:hover{
+    font-size: 2.2rem;
+    background-color: #222;
+    
+
+}
+#icons-redeSociais{
+    display: flex;
+
+}
+.icon-footer{
+    padding: 1rem;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,36 @@
+form{
+    width: 36.7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bloco-coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form label{
+    color: black;
+    font-size: 2.2rem;
+}
+form input{
+    color: black;
+    width: 60%;
+    height: 4.5vh;
+}
+form input ::placeholder{
+    color: black;
+}
+#botao{
+    width: 50%;
+    margin-top: 2rem;
+    background-color: #222;
+    color: white;
+    border: none;
+    border: #222 0.2rem solid;
+    padding: 0.5rem;
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 2rem;
+
+}
