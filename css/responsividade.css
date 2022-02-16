@@ -1,0 +1,65 @@
+@media(max-width:900px){
+html{
+    font-size: 55%;
+}
+
+}
+@media(max-width:768px) {
+html{
+    font-size:50% ;
+}
+
+.bloco-flex{
+    flex-direction: column;
+}    
+/* CAROUSEL MAIS IMAGENS */
+.carousel{
+    width: 100%;
+}
+.info{
+    width: 100%;
+}
+.info p{
+    width: 90%;
+}
+/* INDEX */
+.item{
+    width: 85%;
+}
+.item{
+    margin-top: 5rem;
+}
+.item .item-texto p{
+    width: 90%;
+}
+/* FOOTER */
+footer{
+    padding: 1rem 0rem;
+}
+footer div{
+    flex-direction: column;
+}
+footer div nav{
+    padding: 0;
+}
+footer #icons-redeSociais{
+    flex-direction: row;
+    
+}
+.icon-footer{
+    padding-top: 1rem;
+}
+
+}
+@media(max-width:540px) {
+    html{
+        font-size: 45%;
+}
+    
+}
+@media(max-width:320px) {
+    html{
+        font-size: 40%;
+}
+    
+}

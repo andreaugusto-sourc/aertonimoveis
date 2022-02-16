@@ -32,7 +32,7 @@ $count = $count-1
 <div class="container">
 <?php include 'header.php' ?>
 
-<main class="bloco-carousel">
+<main id="bloco-carousel" class="bloco-flex">
 
 <div class="carousel">
 

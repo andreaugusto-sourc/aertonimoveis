@@ -37,10 +37,10 @@ $resultado = exibirItens($conexao);
           
 </div>
 
-<a><strong>Tipo:</strong>  <?= $linha['nomeItem'] ?> </a>
-<a id="descriItem"><strong>Descrição:</strong> <?= $linha['descriItem'] ?></a>
-<a id="item-valor"><strong>Valor proposto:</strong> R$ <?= $linha['valorItem'] ?> </a>
-<a><strong>Localidade:</strong> <?= $linha['localItem']?></a>
+<p><strong>Tipo:</strong>  <?= $linha['nomeItem'] ?> </p>
+<p id="descriItem"><strong>Descrição:</strong> <?= $linha['descriItem'] ?></p>
+<p id="item-valor"><strong>Valor proposto:</strong> R$ <?= $linha['valorItem'] ?> </p>
+<p><strong>Localidade:</strong> <?= $linha['localItem']?></p>
 
 </div>
 

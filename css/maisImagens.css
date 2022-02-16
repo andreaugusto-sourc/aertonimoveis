@@ -1,6 +1,4 @@
-.bloco-carousel{
-    display: flex;
-    align-items: center;
+#bloco-carousel{
     justify-content: center;
     margin: auto;
     width: 85%;
